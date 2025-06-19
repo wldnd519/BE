@@ -43,7 +43,7 @@ cron.schedule("0 9 * * *", async () => {
 });
 
 // ✅ 2. 매일 대화 요약 이메일 전송
-cron.schedule("0 19 * * *", async () => {
+cron.schedule("0 9 * * *", async () => {
   console.log("📨 보호자에게 대화 요약 이메일 전송 시작...");
 
   const now = new Date();

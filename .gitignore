@@ -18,7 +18,6 @@ build/
 __pycache__/
 *.pyc
 
-# 환경 변수 파일 무시
 .env
 .env.local
 .env.development
